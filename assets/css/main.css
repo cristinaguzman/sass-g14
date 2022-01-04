@@ -1,0 +1,54 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 400px) {
+  .button {
+    background-color: yellowgreen;
+  }
+}
+
+.subscription {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.subscription:hover {
+  background-color: blue;
+}
+
+@media screen and (max-width: 768px) {
+  .subscription {
+    background-color: yellowgreen;
+  }
+}
+
+nav {
+  background-color: red;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  color: white;
+}
+
+/*
+nav {
+  background-color: red;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+*/

@@ -1,0 +1,16 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/reset";
+
+@import "components/cards";
+@import "components/navbar";
+@import "components/buttons";
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/mainsection";
+
+@import "pages/about";
+@import "pages/footer";
+@import "pages/home";
