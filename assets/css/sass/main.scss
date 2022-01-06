@@ -6,6 +6,7 @@
 @import "components/cards";
 @import "components/navbar";
 @import "components/buttons";
+@import "components/paginator";
 
 @import "layout/grid";
 @import "layout/header";
@@ -14,3 +15,6 @@
 @import "pages/about";
 @import "pages/footer";
 @import "pages/home";
+@import "pages/blog";
+
+@import "vendors/scss/bootstrap";

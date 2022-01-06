@@ -1,0 +1,15 @@
+.header {
+  background-image: url("/assets/img/post-image.jpg");
+  background-position: center;
+  background-size: cover;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $secondary-font;
+  font-size: $font-size-xx-large;
+  font-style: $secondary-font-italic;
+  font-weight: $secondary-font-black;
+  height: 600px;
+  text-align: center;
+}

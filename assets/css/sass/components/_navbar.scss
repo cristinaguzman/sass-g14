@@ -1,12 +1,10 @@
 //sass
 nav {
-  background-color: red;
-  ul {
-    display: flex;
-    justify-content: space-around;
-    li {
-      color: white;
-    }
+  background-color: $raisin-black;
+
+  .navbar__logo {
+    height: 45px;
+    width: 78px;
   }
 }
 
