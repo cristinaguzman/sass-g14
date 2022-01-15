@@ -1,0 +1,27 @@
+%btn {
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 3em;
+  margin: 0 0.25rem;
+  border: none;
+  border-radius: 5px;
+  &:hover {
+    background-color: red;
+  }
+}
+
+.boton {
+  @extend %btn;
+  background-color: purple;
+}
+.boton2 {
+  @extend %btn;
+  background-color: rgb(8, 109, 47);
+  font-size: 0.2 * 5em;
+}
+.boton3 {
+  background-color: blue;
+}
